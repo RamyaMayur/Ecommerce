@@ -5,7 +5,6 @@ import Login from "./pages/Login";
 import Product from "./pages/Product";
 import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
-import NotFound from "./pages/NotFound";
 import { BrowserRouter as Router, Route, Routes, Link, Switch } from 'react-router-dom'
 
 // const App = () => {
@@ -18,7 +17,6 @@ import { BrowserRouter as Router, Route, Routes, Link, Switch } from 'react-rout
 // };
 
 const App = () => {
-  const user=true
   return (
     <div>
       <Router>

@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { tablet } from "../responsive"
 
 const Container=styled.div`
     width:100vw;
@@ -15,7 +14,6 @@ const Container=styled.div`
 const Wrapper=styled.div`
     padding:20px;
     width:40%;
-    ${tablet({width:"75%"})};
     background-color:white;
 `
 const Title=styled.h1`

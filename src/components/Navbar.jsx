@@ -2,13 +2,11 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import { Badge } from '@material-ui/core';
 import React from 'react'
 import styled from 'styled-components'
-import {tablet} from "../responsive"
 import { NavLink } from 'react-router-dom';
 import "../components/Navbar.css"
 
 const Container = styled.div`
     height:60px;
-    ${tablet({height:"50px"})};
 `
 const Left = styled.div`
     flex:1;
@@ -17,7 +15,6 @@ const Left = styled.div`
 `;
 const Language = styled.span`
     font-size:14px;
-    ${tablet({display:"none"})};
     cursor:pointer;
 `
 
@@ -31,7 +28,6 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
     border:none;
-    ${tablet({width:"50px"})};
 `
 
 const Center = styled.div`
@@ -39,7 +35,6 @@ const Center = styled.div`
     text-align:center;
 `
 const Logo = styled.h1`
-    ${tablet({fontSize:"24px"})};
     font-weight:bold;
 `
 
@@ -48,13 +43,11 @@ const Right = styled.div`
     display:flex;
     align-items:center;
     justify-content:flex-end;
-    ${tablet({flex:2, justifyContent:"center"})};
 `;
 
 const MenuItem = styled.div`
     font-size:14px;
     cursor:pointer;
-    ${tablet({fontSize:"12px",marginLeft:"10px"})};
     margin-left:25px;
 `
 
@@ -62,7 +55,6 @@ const Wrapper = styled.div`
     padding:10px 20px;
     display:flex;
     align-items:center;
-    ${tablet({padding:"10px 0px"})};
     justify-content:space-between;
 `
 
